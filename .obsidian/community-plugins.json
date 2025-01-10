@@ -5,6 +5,8 @@
   "table-editor-obsidian",
   "obsidian-tasks-plugin",
   "calendar",
+  "obsidian-linter",
+  "obsidian-dictionary-plugin",
   "obsidian-icon-folder",
-  "obsidian-linter"
+  "obsidian-style-settings"
 ]

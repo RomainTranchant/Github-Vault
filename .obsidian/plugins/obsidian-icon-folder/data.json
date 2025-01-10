@@ -5,7 +5,10 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "🗒",
+      "📁"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -14,10 +17,10 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
     "iconInTitlePosition": "above",
-    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsBackgroundCheckEnabled": false,
@@ -27,5 +30,9 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Github-Vault/3rd folder": "📁",
+  "Github-Vault/3rd folder/Another note in the third folder.md": "🗒",
+  "Github-Vault/Networking": "📁",
+  "Github-Vault/Networking/Port Number And Protocols.md": "🗒"
 }

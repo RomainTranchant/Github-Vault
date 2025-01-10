@@ -1,6 +1,6 @@
 {
   "remoteURL": "https://github.com/RomainTranchant/Github-Vault",
   "gitLocation": "",
-  "syncinterval": 5,
+  "syncinterval": 20,
   "isSyncOnLoad": true
 }

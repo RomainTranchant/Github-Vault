@@ -1,4 +1,9 @@
 [
   "obsidian-git",
-  "github-sync"
+  "github-sync",
+  "dataview",
+  "table-editor-obsidian",
+  "obsidian-tasks-plugin",
+  "calendar",
+  "obsidian-icon-folder"
 ]

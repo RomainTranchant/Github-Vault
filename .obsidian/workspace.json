@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github-Vault/Networking/IPv4 Addresses.md",
+                "file": "Github-Vault/Networking/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv4 Addresses"
+              "title": "DNS"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#IPv4address",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,8 +176,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "03f1d71a033f9e04",
+  "active": "9bce7cb6d65d422f",
   "lastOpenFiles": [
+    "Github-Vault/Networking/IPv4 Addresses.md",
     "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Assets/Attachments/GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg",
     "Github-Vault/Networking/DNS.md",
@@ -186,7 +186,6 @@
     "Github-Vault/Assets/Attachments/dns-logo.webp",
     "Github-Vault/Assets/Attachments",
     "Github-Vault/Assets",
-    "Github-Vault/Networking/IPv4 Addresses.md",
     "Github-Vault/Untitled.md",
     "Welcome.md",
     "Github-Vault/Resume/RomainTranchant_Resume_2025.pdf",

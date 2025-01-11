@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#IPv4address",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9bce7cb6d65d422f",
+  "active": "03f1d71a033f9e04",
   "lastOpenFiles": [
     "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Assets/Attachments/GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg",

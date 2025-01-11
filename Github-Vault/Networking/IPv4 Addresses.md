@@ -22,4 +22,3 @@ Any IPv4 address that is not part of the above private ranges. These addresses a
 
 
 
-![](https://i.imgur.com/9HsIQYE.png)

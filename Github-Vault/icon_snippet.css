@@ -1,0 +1,12 @@
+/* Custom icons for folders and files */
+.nav-folder-title-content::before {
+    content: "\f07c"; /* A folder icon */
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+
+.nav-file-title-content::before {
+    content: "\f15c"; /* A file icon */
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}

@@ -1,5 +1,6 @@
 ![[GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg]]
 
+
 Let's break down these DNS handling exercises, focusing on each type of DNS record and cache management, while simplifying the process. 
 
 ### A-Record Exercise

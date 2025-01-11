@@ -6,11 +6,19 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileCog2",
       "🗒",
       "📁"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "rule": "file folder",
+        "icon": "📁",
+        "for": "everything",
+        "order": 0
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
@@ -26,11 +34,12 @@
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
-    "iconIdentifier": ":",
+    "iconIdentifier": ":notepad",
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
   },
   "Github-Vault/Networking": "📁",
-  "Github-Vault/Networking/Port Number And Protocols.md": "🗒"
+  "Github-Vault/Networking/Port Number And Protocols.md": "🗒",
+  "Github-Vault/Networking/IPv4 Adresses.md": "🗒"
 }

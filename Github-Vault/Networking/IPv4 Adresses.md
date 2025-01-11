@@ -1,3 +1,4 @@
+:tags
 ### Private IPv4 Address Ranges
 
 These addresses are used within private networks and are not routable on the internet.
@@ -17,3 +18,4 @@ Any IPv4 address that is not part of the above private ranges. These addresses a
 |Many ranges|Any address outside private ranges|
 ||(e.g., 8.8.8.8, 192.0.2.0)|
 |ISP assigned|Typically assigned by ISPs|
+

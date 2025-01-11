@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.5
   },
   "right": {
     "id": "cb6866270f7c7ac2",
@@ -176,14 +176,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e5e686382029065",
+  "active": "1989649840dd66b3",
   "lastOpenFiles": [
+    "Github-Vault/Networking/Port Number And Protocols.md",
+    "Github-Vault/Networking/IPv4 Adresses.md",
     "Github-Vault/Resume/RomainTranchant_Resume_2025.pdf",
     "Github-Vault/README.md",
     "Github-Vault/Untitled.md",
     "Github-Vault/Untitled",
-    "Github-Vault/Networking/IPv4 Adresses.md",
-    "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/icon_snippet.css",
     "Welcome.md",
     "Github-Vault/Css icon Snippet.md",

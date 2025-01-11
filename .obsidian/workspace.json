@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github-Vault/Networking/Port Number And Protocols.md",
+                "file": "Github-Vault/Networking/IPv4 Adresses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Port Number And Protocols"
+              "title": "IPv4 Adresses"
             }
           }
         ]
@@ -172,17 +172,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "1989649840dd66b3",
   "lastOpenFiles": [
+    "Welcome.md",
+    "Github-Vault/Css icon Snippet.md",
+    "Github-Vault/Networking/IPv4 Adresses.md",
+    "Github-Vault/Css icon snippet",
+    "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Resume/RomainTranchant_Resume_2025.pdf",
     "Github-Vault/Resume/Romain Tranchant Resume.md",
-    "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/3rd folder/Another note in the third folder.md",
     "Github-Vault/4th folder",
-    "Github-Vault/Untitled.md",
     "Github-Vault/Untitled 1.md",
     "Github-Vault/Another note.md",
     "Github-Vault/Exterior note.md",
@@ -194,7 +198,6 @@
     "Untitled.md",
     "Github-Vault/Networking",
     "Github-Vault/Resume",
-    "Github-Vault",
-    "Welcome.md"
+    "Github-Vault"
   ]
 }

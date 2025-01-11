@@ -18,4 +18,4 @@ Any IPv4 address that is not part of the above private ranges. These addresses a
 ||(e.g., 8.8.8.8, 192.0.2.0)|
 |ISP assigned|Typically assigned by ISPs|
 
-#IPv4 #IPv4address 
+:luc_tag: #IPv4 #IPv4address #Network 

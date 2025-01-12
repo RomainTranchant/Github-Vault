@@ -1,8 +1,14 @@
-![](https://i.imgur.com/PMsofWO.jpeg)
+![|752](https://i.imgur.com/PMsofWO.jpeg)
 
 ```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
 ```
-
 Let's break down these DNS handling exercises, focusing on each type of DNS record and cache management, while simplifying the process. 
 
 When you try to access a domain (e.g., www.example.com), the DNS resolution process is used to translate that domain into an IP address that can be used to establish a connection to the appropriate server. The three key components in DNS resolution you mentioned — A record, local cache, and CNAME record — each play different roles in the process. Here's a breakdown of how each is checked and their relative speeds. In summary, **local cache** is the fastest method for DNS resolution, followed by direct retrieval of an **A record** from DNS servers. A **CNAME record** resolution is slower due to the additional query needed to resolve the target domain.
@@ -57,6 +63,5 @@ A CNAME Record maps an alias of one domain to another domain:
 3. **Check CNAME Resolution**: Use `nslookup` to query "search" and see the CNAME mapping to "www.google.com".
 
 ![](https://i.imgur.com/kysgvkZ.png)
-
 
 :luc_tag: #DNS #DNSCache 

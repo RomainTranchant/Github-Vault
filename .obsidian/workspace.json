@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github-Vault/Networking/Port Number And Protocols.md",
+                "file": "Github-Vault/Networking/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Port Number And Protocols"
+              "title": "DNS"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github-Vault/Networking/Port Number And Protocols.md",
+                "file": "Github-Vault/Networking/DNS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Port Number And Protocols"
+              "title": "Outgoing links from DNS"
             }
           },
           {
@@ -190,8 +190,8 @@
   "active": "9bce7cb6d65d422f",
   "lastOpenFiles": [
     "Github-Vault/Networking/DNS.md",
-    "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Networking/IPv4 Addresses.md",
+    "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Assets/Attachments/GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg",
     "Github-Vault/Assets/Attachments/65b16c7e097597d6827f0963_SecurityPrivacyDNS_03-p-1080.png",
     "Github-Vault/Assets/Attachments/dns-logo.webp",

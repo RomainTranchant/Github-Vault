@@ -12,7 +12,8 @@
   "templater-obsidian",
   "tag-wrangler",
   "obsidian-icon-shortcodes",
-  "obsidian-image-toolkit",
   "obsidian-imgur-plugin",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "image-converter",
+  "obsidian-image-toolkit"
 ]

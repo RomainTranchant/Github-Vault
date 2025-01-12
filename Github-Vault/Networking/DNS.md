@@ -3,18 +3,23 @@
 
 Let's break down these DNS handling exercises, focusing on each type of DNS record and cache management, while simplifying the process. 
 
+When you try to access a domain (e.g., www.example.com), the DNS resolution process is used to translate that domain into an IP address that can be used to establish a connection to the appropriate server. The three key components in DNS resolution you mentioned — A record, local cache, and CNAME record — each play different roles in the process. Here's a breakdown of how each is checked and their relative speeds. In summary, **local cache** is the fastest method for DNS resolution, followed by direct retrieval of an **A record** from DNS servers. A **CNAME record** resolution is slower due to the additional query needed to resolve the target domain.
 ### A-Record Exercise
 
 An A-Record maps a domain or hostname to an IP address. Let's go through the steps:
 
 1. **Initial Setup**: Log into your domain controller (referred to as DC) using your admin account.
-    
+
 2. **Check Connectivity**: From a client machine, try to ping a hostname ("mainframe"). Notice it fails because there's no DNS record.
-    
+
+![](https://i.imgur.com/cfSCIrt.png)
+
 3. **Create A-Record**: On your DC, add a new A-Record for "mainframe" pointing to the DC's Private IP address.
-    
-4. **Verify Connectivity**: Go back to the client machine and try to ping "mainframe" again. This time it should succeed because the DNS record exists.
-    
+![](https://i.imgur.com/5Ie6eYP.png)
+
+
+5. **Verify Connectivity**: Go back to the client machine and try to ping "mainframe" again. This time it should succeed because the DNS record exists.
+
 
 ### Local DNS Cache Exercise
 

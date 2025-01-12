@@ -11,14 +11,12 @@ An A-Record maps a domain or hostname to an IP address. Let's go through the ste
 1. **Initial Setup**: Log into your domain controller (referred to as DC) using your admin account.
 
 2. **Check Connectivity**: From a client machine, try to ping a hostname ("mainframe"). Notice it fails because there's no DNS record.
-
 ![](https://i.imgur.com/cfSCIrt.png)
 
 3. **Create A-Record**: On your DC, add a new A-Record for "mainframe" pointing to the DC's Private IP address.
-![](https://i.imgur.com/5Ie6eYP.png)
+![](https://i.imgur.com/d3a8AIs.png)
 
-
-5. **Verify Connectivity**: Go back to the client machine and try to ping "mainframe" again. This time it should succeed because the DNS record exists.
+4. **Verify Connectivity**: Go back to the client machine and try to ping "mainframe" again. This time it should succeed because the DNS record exists.
 
 
 ### Local DNS Cache Exercise
@@ -26,24 +24,37 @@ An A-Record maps a domain or hostname to an IP address. Let's go through the ste
 Local DNS cache stores DNS query results temporarily to speed up subsequent requests:
 
 1. **Modify A-Record**: On your DC, change the "mainframe" record address to 8.8.8.8.
-    
+![](https://i.imgur.com/cDIQa1U.png)
+
 2. **Observe Cache**: Ping "mainframe" from the client machine and notice it still resolves to the old address due to cached data.
-    
+![](https://i.imgur.com/3lE4JRK.png)
+
 3. **View Cache**: Use the command `ipconfig /displaydns` to observe the current cache.
+    You can use the command `ipconfig /displaydns > dns.txt
+    Open the notepad with the command `notepad dns.txt`
     
 4. **Flush Cache**: Clear the local DNS cache using `ipconfig /flushdns`.
     
 5. **Verify Update**: Ping "mainframe" again from the client machine. It should now resolve to the updated address (8.8.8.8), showing that the cache has been refreshed.
-    
+![](https://i.imgur.com/7OJMBmx.png)
+
 
 ### CNAME Record Exercise
 
 A CNAME Record maps an alias of one domain to another domain:
 
 1. **Create CNAME Record**: On your DC, create a CNAME record that points the host "search" to "www.google.com".
-    
+![](https://i.imgur.com/s2X2Jt8.png)
+
+
+![](https://i.imgur.com/tk5DpC0.png)
+
 2. **Verify Alias**: From the client machine, ping "search" and observe it resolves to "www.google.com".
-    
+![](https://i.imgur.com/in4jymh.png)
+
 3. **Check CNAME Resolution**: Use `nslookup` to query "search" and see the CNAME mapping to "www.google.com".
+
+![](https://i.imgur.com/kysgvkZ.png)
+
 
 :luc_tag: #DNS #DNSCache 

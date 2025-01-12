@@ -1,5 +1,7 @@
 ![](https://i.imgur.com/PMsofWO.jpeg)
 
+```table-of-contents
+```
 
 Let's break down these DNS handling exercises, focusing on each type of DNS record and cache management, while simplifying the process. 
 

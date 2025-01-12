@@ -1,3 +1,5 @@
+```table-of-contents
+```
 ### Private IPv4 Address Ranges
 
 These addresses are used within private networks and are not routable on the internet.

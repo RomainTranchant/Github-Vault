@@ -32,7 +32,7 @@
   "minimal-style@@ax2@@dark": "#4B6F9A",
   "minimal-style@@ax3@@dark": "#34547B",
   "minimal-style@@ax1@@dark": "#59A2C5",
-  "minimal-style@@checkbox-shape": "checkbox-circle",
+  "minimal-style@@checkbox-shape": "checkbox-square",
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
   "Appearance-dark@@accent-color-override-dark": true,
   "Appearance-light@@accent-color-override-light": false,
@@ -117,5 +117,10 @@
   "Editor@@h4-accent-color@@dark": "#59A2C5",
   "Editor@@h5-accent-color@@dark": "#59A2C5",
   "Editor@@h6-accent-color@@dark": "#59A2C5",
-  "Editor@@callout-title-size": "\"\""
+  "Editor@@callout-title-size": "\"\"",
+  "minimal-style@@ribbon-style": "ribbon-hidden",
+  "minimal-style@@sidebar-tabs-names": "tab-names-on",
+  "minimal-style@@vault-profile-display": "vault-profile-default",
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
+  "minimal-style@@active-line-on": false
 }

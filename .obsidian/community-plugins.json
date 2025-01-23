@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "github-sync",
   "dataview",
   "table-editor-obsidian",
   "obsidian-tasks-plugin",
@@ -17,5 +16,6 @@
   "image-converter",
   "obsidian-image-toolkit",
   "table-checkboxes",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "github-sync"
 ]

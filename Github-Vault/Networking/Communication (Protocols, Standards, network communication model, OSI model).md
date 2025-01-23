@@ -44,3 +44,10 @@ The most widely known internetwork reference model was created by the OSI projec
 - **2 - Data Link** - The data link layer protocols describe methods for exchanging data frames between devices over a common media
 - **1 – Physical** - The physical layer protocols describe the mechanical, electrical, functional, and procedural means to activate, maintain, and de-activate physical connections for a bit transmission to and from a network device.
  ![](https://i.imgur.com/ezbN2Z7.gif)
+# TCP/IP protocol suite
+
+- **1 - Application Layer**: This is the top layer where user interactions happen. It includes protocols like HTTP (web browsing), FTP (file transfer), and SMTP (email). It handles things like data formatting, encryption, and application-specific communication.
+- **2 - Transport Layer**: This layer manages end-to-end communication between devices. The most common protocols here are TCP (Transmission Control Protocol) and UDP (User Datagram Protocol). TCP ensures reliable, ordered delivery of data, while UDP is faster but doesn't guarantee delivery.
+- **3 - Internet Layer**: This layer is responsible for routing data between different networks. The key protocol is IP (Internet Protocol), which assigns addresses to devices and handles the forwarding of packets. Other protocols in this layer include ICMP (for error messages) and ARP (for resolving addresses).
+- **4 - Link Layer**: This layer is responsible for the physical transmission of data on the network. It handles how data is transmitted over a particular medium (like Ethernet or Wi-Fi) and includes protocols for hardware addressing (e.g., MAC addresses) and error detection.
+![](https://i.imgur.com/qkfTLb1.png)

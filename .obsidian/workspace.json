@@ -11,14 +11,12 @@
             "id": "dac637aacdd5c8a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Github-Vault/Networking/Communication (Protocols, Standards, network communication model, OSI model).md",
-                "mode": "source",
-                "source": false
+                "file": "Github-Vault/Assets/Attachments/GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Communication (Protocols, Standards, network communication model, OSI model)"
+              "icon": "lucide-image",
+              "title": "GettyImages-585297068-52005387a57248a19e3ee29bc1af44b4"
             }
           }
         ]
@@ -189,10 +187,10 @@
   },
   "active": "dac637aacdd5c8a0",
   "lastOpenFiles": [
-    "Github-Vault/Resume/Resume.md",
     "Github-Vault/Networking/Communication (Protocols, Standards, network communication model, OSI model).md",
-    "Untitled",
     "Github-Vault/Assets/Attachments/ROMAIN TRANCHANT.pdf",
+    "Github-Vault/Resume/Resume.md",
+    "Untitled",
     "Github-Vault/Networking/Port Number And Protocols.md",
     "Github-Vault/Resume/RomainTranchant_Resume_2025.pdf",
     "Github-Vault/test for table.md",
